@@ -1,10 +1,12 @@
-﻿namespace APIsAndJSON
+﻿using Newtonsoft.Json.Linq;
+
+namespace APIsAndJSON
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            QuoteGenerator.RonKaneyConverstaion();         
         }
     }
 }
